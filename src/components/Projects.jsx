@@ -61,6 +61,51 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          <div className="group relative bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/20 transition">
+            <div className="overflow-hidden">
+              <img
+                src="/WeatherForcast.png"
+                alt="Expense Tracker"
+                className="w-full h-48 object-cover group-hover:scale-105 transition duration-300"
+              />
+            </div>
+            <div className="p-5">
+              <h3 className="text-xl font-bold">Weather Forcast</h3>
+              <p className="mt-2 text-slate-400 text-sm">
+                A Python application with Tkinter that fetches real-time weather
+                data using an API and displays it in a simple, user-friendly
+                interface.
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                <span className="px-2 py-1 bg-slate-700 rounded-md">
+                  Python
+                </span>
+                <span className="px-2 py-1 bg-slate-700 rounded-md">
+                  Tkinter
+                </span>
+              </div>
+
+              {/* Buttons */}
+              <div className="mt-5 flex gap-3">
+                <a
+                  href="https://expense-tracker-theta-navy-49.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 text-sm font-medium rounded-lg bg-cyan-500 hover:bg-cyan-600 transition"
+                >
+                  Get App
+                </a>
+                <a
+                  href="https://github.com/justkartiktyagi/weatherForcast.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 text-sm font-medium rounded-lg border border-slate-600 hover:bg-slate-700 transition"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
 
           {/* Add more projects here later */}
         </div>
