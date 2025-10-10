@@ -19,6 +19,44 @@ export default function Projects() {
 
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="group relative bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/20 transition">
+            <div className="overflow-hidden">
+              <img
+                src="/Cr8iveminds.jpeg"
+                alt="Creativeminds.in"
+                className="w-full h-48 object-cover group-hover:scale-105 transition duration-300"
+              />
+            </div>
+            <div className="p-5">
+              <h3 className="text-xl font-bold">Cr8iveminds.in</h3>
+              <p className="mt-2 text-slate-400 text-sm">
+                Freelance Project for a digital Agency
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                <span className="px-2 py-1 bg-slate-700 rounded-md">React</span>
+              </div>
+
+              {/* Buttons */}
+              <div className="mt-5 flex gap-3">
+                <a
+                  href="https://cr8tivemindsin.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 text-sm font-medium rounded-lg bg-cyan-500 hover:bg-cyan-600 transition"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/justkartiktyagi/cr8tiveminds.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 text-sm font-medium rounded-lg border border-slate-600 hover:bg-slate-700 transition"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
           {/* Expense Tracker Project */}
           <div className="group relative bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/20 transition">
             <div className="overflow-hidden">
