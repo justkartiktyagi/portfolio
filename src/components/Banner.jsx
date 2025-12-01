@@ -156,17 +156,17 @@ export default function Banner({
 
                   {/* Clickable project card */}
                   <a
-                    href="https://cr8tivemindsin.vercel.app/"
+                    href="https://scanyfi-teal.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block mt-4 bg-white/3 rounded-md p-3 text-xs text-slate-200 hover:scale-[1.02] hover:shadow-lg hover:bg-white/5 transition"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="font-medium">Cr8iveminds.in</span>
+                      <span className="font-medium">Scanyfi</span>
                       <span className="text-[11px] text-green-400">Live</span>
                     </div>
                     <div className="mt-2 text-[13px] text-slate-300">
-                      Freelance project for a digital Agency
+                      A web app to book scan and mri
                     </div>
                   </a>
                 </div>
