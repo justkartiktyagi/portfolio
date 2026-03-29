@@ -153,7 +153,7 @@ export default function Projects() {
               />
             </div>
             <div className="p-5">
-              <h3 className="text-xl font-bold">Expense Tracker</h3>
+              <h3 className="text-xl font-bold">Scanyfi</h3>
               <p className="mt-2 text-slate-400 text-sm">
                 A web app to book MRI and Other Scans
               </p>
@@ -200,7 +200,7 @@ export default function Projects() {
               />
             </div>
             <div className="p-5">
-              <h3 className="text-xl font-bold">Weather Forcast</h3>
+              <h3 className="text-xl font-bold">QR Generator</h3>
               <p className="mt-2 text-slate-400 text-sm">
                 A Python application that help to generate a qr code for any
                 link provided to the code
@@ -217,7 +217,7 @@ export default function Projects() {
               {/* Buttons */}
               <div className="mt-5 flex gap-3">
                 <a
-                  href="https://expense-tracker-theta-navy-49.vercel.app/"
+                  href="https://github.com/justkartiktyagi/QRGenerator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 text-sm font-medium rounded-lg bg-cyan-500 hover:bg-cyan-600 transition"
@@ -226,6 +226,50 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/justkartiktyagi/QRGenerator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 text-sm font-medium rounded-lg border border-slate-600 hover:bg-slate-700 transition"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="group relative bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/20 transition">
+            <div className="overflow-hidden">
+              <img
+                src="/chat-bot.jpg"
+                alt="Full stack Chat App"
+                className="w-full h-48 object-cover group-hover:scale-105 transition duration-300"
+              />
+            </div>
+            <div className="p-5">
+              <h3 className="text-xl font-bold">Chatt App</h3>
+              <p className="mt-2 text-slate-400 text-sm">
+                MERN App with Socket.io to chat with your friends in real time
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                <span className="px-2 py-1 bg-slate-700 rounded-md">React</span>
+                <span className="px-2 py-1 bg-slate-700 rounded-md">
+                  Node.js
+                </span>
+                <span className="px-2 py-1 bg-slate-700 rounded-md">
+                  Socket.io
+                </span>
+              </div>
+
+              {/* Buttons */}
+              <div className="mt-5 flex gap-3">
+                <a
+                  href="https://fullstack-chat-app-ob4d.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 text-sm font-medium rounded-lg bg-cyan-500 hover:bg-cyan-600 transition"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/justkartiktyagi/fullstack-chat-app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 text-sm font-medium rounded-lg border border-slate-600 hover:bg-slate-700 transition"
